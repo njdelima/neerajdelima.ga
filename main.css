@@ -44,10 +44,13 @@ a.resume-link {
 	background-size: 100%;
 	width: 100%;
 	height: 210px;
+	border: 2px solid;
 
 }
 
 #overlay {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
 	background: rgba(0,0,0, .75);
 	opacity: 0;
 	text-align: center;
