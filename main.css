@@ -37,6 +37,7 @@ p {
 }
 a.resume-link {
 	color: black;
+	text-decoration: none;
 }
 #box {
 	background-image: url('resume_snapshot.png');
@@ -51,6 +52,7 @@ a.resume-link {
 	opacity: 0;
 	text-align: center;
 	height: 210px;
+	padding: 50px;
 }
 #box:hover #overlay {
 	opacity: 1;
