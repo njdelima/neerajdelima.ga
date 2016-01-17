@@ -53,6 +53,7 @@ a.resume-link {
 	text-align: center;
 	height: 210px;
 	padding: 50px;
+	color: white;
 }
 #box:hover #overlay {
 	opacity: 1;
