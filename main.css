@@ -23,6 +23,7 @@ div.main-container {
 	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	border: 2px solid black;
 }
 
 h1 {
