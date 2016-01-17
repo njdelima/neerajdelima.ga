@@ -10,6 +10,19 @@
 </head>
 <body>
 	<h1>Neeraj J. DeLima</h1>
-	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies laoreet tempor. Vivamus tempor diam non erat volutpat, eu cursus turpis suscipit. Curabitur rhoncus vestibulum erat, tempus rutrum velit rutrum at. Duis accumsan sapien tortor, sit amet vulputate purus bibendum tempor. Phasellus dapibus mauris congue, posuere augue ut, tristique nibh. Sed pellentesque ultricies odio, quis pellentesque velit aliquam quis. Aenean id hendrerit metus. Etiam id nulla bibendum, tristique mauris eu, efficitur nisi. </p>
-
+	<p>
+		Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer, entrepreneur and dreamer whose
+		aim in life is to disrupt the status quo. I grew up in Mumbai, India but my experiences and good fortune have taken me
+		far away, to Atlanta, GA where I'm currently based. I have a certain curiosity about most things in the universe, from
+		astronomy to politics, which is something I cherish. I'm not one to turn down an opportunity to learn something new, no
+		matter what it is.
+	</p>
+	<p>
+		I'm enrolled at the Georgia Institute of Technology studying Computer Science, and expected to graduate in 2018.
+		My hobbies include playing and following sports, learning Mandarin Chinese, teaching myself jazz piano and attempting
+		to watch every film made between 1967 and 1975. I'm a huge fan of the Atlanta Hawks and Georgia Tech basketball.
+	</p>
+	<p>
+		Thanks for visiting my website! Feel free to check out some of the stuff I've been working on, or shoot me a message.
+	</p>
 </body>
