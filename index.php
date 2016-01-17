@@ -11,6 +11,7 @@
 <body>
 	<div class="main-container">
 		<h1>Neeraj J. DeLima</h1>
+		<hr />
 		<img src="photo.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
 		<p>
 			Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer, entrepreneur and dreamer whose
