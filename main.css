@@ -36,14 +36,15 @@ p {
 	line-height: 200%;
 }
 
-a.resume-link {
-	color: black;
-}
-a.resume-link:hover {
-	opacity: 0.5;
+#box {
+	background-image: url('resume_snapshot.png');
+	background-size: 100%;
 }
 
-.resume-photo {
-	width:100%;
-	border: 2px solid;
+#overlay {
+	background: rgba(0,0,0, .75);
+	opacity: 0;
+}
+#box:hover #overlay {
+	opacity: 1;
 }
