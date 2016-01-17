@@ -30,5 +30,8 @@
 		</p>
 		<hr />
 		<h1>My Resume</h1>
+		<a href="neeraj_delima_resume.pdf">
+			<img src="resume_snapshot.png" alt="resume link" class="resume-photo" />
+		</a>
 	</div>
 </body>
