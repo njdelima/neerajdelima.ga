@@ -33,5 +33,9 @@
 		<a href="neeraj_delima_resume.pdf" target="_blank" class="resume-link">
 			<img src="resume_snapshot.png" alt="resume link" class="resume-photo" />
 		</a>
+		<hr />
+		<p>
+			Lorem ipsum
+		</p>
 	</div>
 </body>

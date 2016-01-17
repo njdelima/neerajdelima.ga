@@ -39,6 +39,10 @@ p {
 a.resume-link {
 	color: black;
 }
+a.resume-link:hover {
+	opacity: 0.5;
+}
+
 .resume-photo {
 	width:100%;
 	border: 2px solid;
