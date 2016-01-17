@@ -1,5 +1,8 @@
 body {
-	padding: 40px;
+}
+
+div.main-container {
+	width: 400px;
 }
 
 h1 {
