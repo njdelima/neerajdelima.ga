@@ -10,7 +10,6 @@
 </head>
 <body>
 	<div class="main-container">
-		<img src="photoH300.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
 		<h1>Neeraj J. DeLima</h1>
 		<p>
 			Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer, entrepreneur and dreamer whose
