@@ -23,6 +23,6 @@
 		to watch every film made between 1967 and 1975. I'm a huge fan of the Atlanta Hawks and Georgia Tech basketball.
 	</p>
 	<p>
-		Thanks for visiting my website! Feel free to check out some of the stuff I've been working on, or shoot me a message.
+		Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
 	</p>
 </body>
