@@ -16,6 +16,11 @@ div.main-container {
 	max-width: 768px;
 }
 
+.main-photo {
+	width: 300px;
+	height: 300px;
+}
+
 h1 {
 	font-family: "Roboto Condensed", sans-serif;
 }
