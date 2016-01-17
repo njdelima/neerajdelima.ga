@@ -36,8 +36,10 @@ p {
 	line-height: 200%;
 }
 
+a.resume-link {
+	color: black;
+}
 .resume-photo {
 	width:100%;
 	border: 2px solid;
-	
 }

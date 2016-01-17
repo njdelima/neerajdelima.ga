@@ -30,7 +30,7 @@
 		</p>
 		<hr />
 		<h1>My Resume</h1>
-		<a href="neeraj_delima_resume.pdf">
+		<a href="neeraj_delima_resume.pdf" target="_blank" class="resume-link">
 			<img src="resume_snapshot.png" alt="resume link" class="resume-photo" />
 		</a>
 	</div>
