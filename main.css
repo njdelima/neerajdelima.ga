@@ -14,9 +14,6 @@ div.main-container {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 768px;
-	background-image: url('photo2.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
 }
 
 .main-photo {
