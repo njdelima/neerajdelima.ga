@@ -26,5 +26,6 @@
 		<p>
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
 		</p>
+		<img src="photo.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
 	</div>
 </body>
