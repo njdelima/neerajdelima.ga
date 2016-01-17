@@ -16,6 +16,10 @@ div.main-container {
 	max-width: 768px;
 }
 
+div.photo-div {
+	width: 100%;
+}
+
 .main-photo {
 	width: 300px;
 	height: 300px;

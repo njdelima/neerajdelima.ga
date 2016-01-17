@@ -11,7 +11,9 @@
 <body>
 	<div class="main-container">
 		<h1>Neeraj J. DeLima</h1>
-		<img src="photo.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
+		<div class="photo-div">
+			<img src="photo.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
+		</div>
 		<p>
 			Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer, entrepreneur and dreamer whose
 			aim in life is to disrupt the status quo. I grew up in Mumbai, India but my experiences and good fortune have taken me
