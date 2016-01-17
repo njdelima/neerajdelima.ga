@@ -38,6 +38,7 @@ p {
 a.resume-link {
 	color: black;
 	text-decoration: none;
+	border: 2px solid;
 }
 #box {
 	background-image: url('resume_snapshot.png');
