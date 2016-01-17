@@ -51,6 +51,9 @@ a.resume-link {
 }
 #border-div {
 	border: 2px solid;
+	height: 215px;
+	width: 100%;
+
 }
 
 #overlay {
@@ -65,6 +68,11 @@ a.resume-link {
 	-webkit-transition: opacity .25s ease;
 	transition: opacity .25s ease;
 }
+#box:hover {
+	-webkit-filter: none;
+	filter: none;
+}
+
 #box:hover #overlay {
 	opacity: 1;
 }
