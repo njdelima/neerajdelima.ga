@@ -29,5 +29,6 @@
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
 		</p>
 		<hr />
+		<h1>My Resume</h1>
 	</div>
 </body>
