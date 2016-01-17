@@ -50,6 +50,7 @@ a.resume-link {
 	background: rgba(0,0,0, .75);
 	opacity: 0;
 	text-align: center;
+	height: 210px;
 }
 #box:hover #overlay {
 	opacity: 1;
