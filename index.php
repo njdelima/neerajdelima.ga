@@ -29,7 +29,7 @@
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
 		</p>
 		<hr />
-		<h1>My Resume</h1>
+		<h1>Resume</h1>
 		<a href="neeraj_delima_resume.pdf" target="_blank" class="resume-link">
 			<div id="box">
 				<div id="overlay">

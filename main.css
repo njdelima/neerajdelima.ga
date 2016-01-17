@@ -51,7 +51,7 @@ a.resume-link {
 #overlay {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
-	background: rgba(0,0,0, .75);
+	background: rgba(0,0,0, .85);
 	opacity: 0;
 	text-align: center;
 	height: 208px;
