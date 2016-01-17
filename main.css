@@ -57,6 +57,7 @@ a.resume-link {
 	height: 210px;
 	padding: 50px;
 	color: white;
+	border: 2px solid;
 }
 #box:hover #overlay {
 	opacity: 1;
