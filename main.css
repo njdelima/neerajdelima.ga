@@ -16,11 +16,8 @@ div.main-container {
 	max-width: 768px;
 }
 
-div.photo-div {
-	width: 100%;
-}
-
 .main-photo {
+	display: block;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
