@@ -30,12 +30,16 @@ div.main-container {
 h1 {
 	font-family: "Roboto Condensed", sans-serif;
 }
+h2 {
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: center;
+}
 
 p {
 	font-family: 'Roboto', sans-serif;
 	line-height: 200%;
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 1.05em;
 }
 a.resume-link {
 	color: black;
