@@ -19,7 +19,7 @@
 		</ul>
 	</div>
 	<div class="main-container">
-		<h1>Neeraj J. DeLima</h1>
+		<h1 id="introduction">Neeraj J. DeLima</h1>
 		<hr />
 		<img src="photo.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
 		<p>
@@ -49,7 +49,7 @@
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
 		</p> -->
 		<hr />
-		<h2>About Me</h2>
+		<h2 id="about">About Me</h2>
 		<p class="about">
 			I was born in Mumbai, India.
 		</p>
@@ -101,7 +101,7 @@
 		</p>
 
 		<hr />
-		<h2>Projects</h2>
+		<h2 id="projects">Projects</h2>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
 	</div>
@@ -110,7 +110,7 @@
 		$(document).ready(function() {
 			$(window).scroll(function() {
 				var windowHeight = $(window).height();
-				alert(windowHeight);
+				//alert(windowHeight);
 			});
 		});
 	</script>
