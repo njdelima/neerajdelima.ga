@@ -105,4 +105,13 @@
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(window).scroll(function() {
+				var windowHeight = $(window).height();
+				alert(windowHeight);
+			});
+		});
+	</script>
 </body>
