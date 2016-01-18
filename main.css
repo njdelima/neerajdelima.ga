@@ -47,4 +47,5 @@ p {
 }
 p.about {
 	text-align: center;
+	line-height: 50%;
 }

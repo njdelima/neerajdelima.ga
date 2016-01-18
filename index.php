@@ -52,5 +52,36 @@
 			I'm enrolled at the Georgia Institute of Technology studying Computer Science and graduating
 			in 2018.
 		</p>
+		<p class="about">
+			I support the 
+			<a target="_blank" href="http://espn.go.com/nba/team/_/name/atl/atlanta-hawks">
+				Atlanta Hawks
+			</a> and the 
+			<a target="_blank" href="http://www.ramblinwreck.com">
+				Georgia Tech Yellow Jackets.
+			</a>
+		</p>
+		<p class="about">
+			I'm obsessed with American New Wave cinema (1967 — 1982) and 
+			<a target="_blank" href="https://en.wikipedia.org/wiki/New_Hollywood#List_of_notable_films">
+				this
+			</a>
+			is the list of films I'm working on watching.
+		</p>
+		<p class="about">
+			I'm learning Mandarin Chinese and aim to be fluent by the end of 2016.
+		</p>
+		<p class="about">
+			I use
+			<a target="_blank" href="http://positivesharing.com/2014/09/natural-and-synthetic-happiness-at-work/">
+				synthetic happiness
+			</a>
+			to stay happy even when things don't go my way.
+		</p>
+		
+		<hr />
+		<h2>Projects</h2>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
 	</div>
 </body>
