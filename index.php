@@ -166,7 +166,7 @@
 			var projectsBottom = $("#projects").offset().top + $("#projects").height();
 
 			$(window).scroll(function() {
-				var mid = Math.round($(window).height() / 2);
+				var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
 
 				if (mid > introBottom && mid < aboutBottom) {
 					$(".nav-button").removeClass("active");
