@@ -129,20 +129,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
-			if (mid < introBottom) {
-				$(".nav-button").removeClass("active");
-				$("#introduction-nav").addClass("active");
-			} else if (mid > introBottom && mid < aboutBottom) {
-				$(".nav-button").removeClass("active");
-				$("#about-nav").addClass("active");
-			} else if (mid > aboutBottom && mid < projectsBottom) {
-				$(".nav-button").removeClass("active");
-				$("#projects-nav").addClass("active");
-			} else {
-				$(".nav-button").removeClass("active");
-				$("#contact-nav").addClass("active");
-			}
 			$("#introduction-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#introduction").offset().top
