@@ -32,8 +32,10 @@ h1 {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 200%;
+	font-weight: 300;
+	font-size: 1.1em;
 }
 a.resume-link {
 	color: black;

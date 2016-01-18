@@ -4,10 +4,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="" />
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	
+
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
@@ -19,8 +18,8 @@
 			Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer trying to disrupt
 			the status quo. I have a certain curiosity about most things in the universe, from astronomy to
 			politics, and I learn a lot every day from the things that I do and the people around me. I'm 
-			constantly trying to develop myself — intellectually, physically and socially — because I actually
-			listened to Mum when she said the sky's the limit.
+			constantly trying to develop myself — intellectually, physically and socially — because I
+			believe that is the only path to success.
 		</p>
 		<p>
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and feel free to shoot
