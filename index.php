@@ -42,8 +42,15 @@
 		</p> -->
 		<hr />
 		<h2>About Me</h2>
-		<p>
-			Lorem ipsum
+		<p class="about">
+			I was born in Mumbai, India.
+		</p>
+		<p class="about">
+			I'm currently based in Atlanta, GA.
+		</p>
+		<p class="about">
+			I'm enrolled at the Georgia Institute of Technology studying Computer Science and graduating
+			in 2018.
 		</p>
 	</div>
 </body>
