@@ -31,13 +31,7 @@
 		<hr />
 		<h1>Resume</h1>
 		<a href="neeraj_delima_resume.pdf" target="_blank" class="resume-link">
-			<div id="border-div">
-				<div id="box">
-					<div id="overlay">
-						<span id="overlay-text">Click to view!</span>
-					</div>
-				</div>
-			</div>
+			<img class="resume-img" src="resume_snapshot.png" alt="preview of Neeraj's resume" />
 		</a>
 		<hr />
 		<p>
