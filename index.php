@@ -12,10 +12,10 @@
 <body>
 	<div class="navigation">
 		<ul>
-			<li>Introduction</li>
-			<li>About Me</li>
-			<li>Projects</li>
-			<li>Contact</li>
+			<li>| Introduction</li>
+			<li>| About Me</li>
+			<li>| Projects</li>
+			<li>| Contact</li>
 		</ul>
 	</div>
 	<div class="main-container">

@@ -8,6 +8,11 @@ body {
 	padding: 0px;
 	border: 0;
 }
+div.navigation ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
 
 div.main-container {
 	width: 100%;
