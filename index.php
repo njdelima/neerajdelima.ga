@@ -10,6 +10,14 @@
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
+	<div class="navigation">
+		<ul>
+			<li>Introduction</li>
+			<li>About Me</li>
+			<li>Projects</li>
+			<li>Contact</li>
+		</ul>
+	</div>
 	<div class="main-container">
 		<h1>Neeraj J. DeLima</h1>
 		<hr />
