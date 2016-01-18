@@ -160,9 +160,18 @@
 			$(".nav-button").mouseleave(function() {
 				$(this).removeClass("semi-active");
 			});
+
+			var introBottom = $("#introduction").offset().top + $("#introduction").height();
+			var aboutBottom = $("#about").offset().top + $("#about").height();
+			var projectsBottom = $("#projects").offset().top + $("#projects").height();
+
 			$(window).scroll(function() {
-				var windowHeight = $(window).height();
-				//alert(windowHeight);
+				var mid = Math.round($(window).height() / 2);
+
+				if (mid > introBottom && mid < aboutBottom) {
+					$(".nav-button").removeClass("active");
+					$("#about-nav").addClass("active");
+				}
 			});
 		});
 	</script>
