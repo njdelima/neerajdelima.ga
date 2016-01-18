@@ -166,9 +166,10 @@
 			var projectsBottom = $("#projects").offset().top + $("#projects").height();
 
 			$(window).scroll(function() {
-				alert("window.scrollTop = " + $(window).scrollTop());
 				var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
-
+				alert("window.scrollTop + height / 2 = " + mid);
+				alert("introBottom = " + introBottom);
+				alert("aboutBottom = " + aboutBottom);
 				if (mid > introBottom && mid < aboutBottom) {
 					$(".nav-button").removeClass("active");
 					$("#about-nav").addClass("active");
