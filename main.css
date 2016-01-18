@@ -33,72 +33,18 @@ h1 {
 h2 {
 	font-family: "Roboto Condensed", sans-serif;
 	text-align: center;
-	font-size: 1.9em;
-	
+	font-size: 2em;
+
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
 	line-height: 200%;
 	font-weight: 300;
-	font-size: 1.05em;
-}
-a.resume-link {
-	color: black;
-	text-decoration: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-#box {
-	background-image: url('resume_snapshot.png');
-	background-size: 100%;
-	width: 100%;
-	height: 210px;
-	//border: 2px solid;
-	margin-bottom: 40px;
-	-webkit-filter: blur(3px);
-    filter: blur(3px);
-}
-#border-div {
-	border: 2px solid;
-	height: 215px;
-	width: 100%;
+	//font-size: 1.05em;
+	font-size: 1em;
 
 }
-
-#overlay {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-	background: rgba(0,0,0, .85);
-	opacity: 0;
+p.about {
 	text-align: center;
-	height: 208px;
-	padding: 85px;
-	color: white;
-	-webkit-transition: opacity .25s ease;
-	transition: opacity .25s ease;
 }
-#box:hover {
-	-webkit-filter: none;
-	filter: none;
-}
-
-#box:hover #overlay {
-	opacity: 1;
-}
-
-*/
