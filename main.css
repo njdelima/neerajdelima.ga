@@ -22,6 +22,11 @@ div.navigation ul {
 	padding: 0;
 	margin: 0;
 }
+
+div.navigation ul li.semi-active {
+	font-weight: 500;
+	font-size: 1.3em;
+}
 div.navigation ul li.active {
 	font-weight: 500;
 	font-size: 1.5em;

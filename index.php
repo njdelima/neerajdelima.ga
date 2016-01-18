@@ -133,30 +133,32 @@
 				$("html, body").animate({
 					scrollTop: $("#introduction").offset().top
 				}, 1000);
-				$(".nav-button").removeClass("active");
-				$(this).addClass("active");
-
 			});
 			$("#about-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#about").offset().top
 				}, 1000);
-				$(".nav-button").removeClass("active");
-				$(this).addClass("active");
 			});
 			$("#projects-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#projects").offset().top
 				}, 1000);
-				$(".nav-button").removeClass("active");
-				$(this).addClass("active");
 			});
 			$("#contact-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#contact").offset().top
 				}, 1000);
+
+			});
+			$(".nav-button").click(function() {
 				$(".nav-button").removeClass("active");
 				$(this).addClass("active");
+			});
+			$(".nav-button").mouseenter(function() {
+				$(this).addClass("semi-active");
+			});
+			$(".nav-button").mouseleave(function() {
+				$(this).removeClass("semi-active");
 			});
 			$(window).scroll(function() {
 				var windowHeight = $(window).height();
