@@ -12,10 +12,10 @@
 <body>
 	<div class="navigation">
 		<ul>
-			<li id="introduction-nav" class="active">| Introduction</li>
-			<li id="about-nav">| About Me</li>
-			<li id="projects-nav">| Projects</li>
-			<li id="contact-nav">| Contact Me</li>
+			<li id="introduction-nav" class="active"><a href="#introduction">| Introduction</a></li>
+			<li id="about-nav"><a href="#about">| About Me</a></li>
+			<li id="projects-nav"><a href="#projects">| Projects</a></li>
+			<li id="contact-nav"><a href="#contact">| Contact Me</a></li>
 		</ul>
 	</div>
 	<div class="main-container">
@@ -132,22 +132,22 @@
 			$("#introduction-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#introduction").offset().top
-				}, 2000);
+				}, 1000);
 			});
 			$("#about-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#about").offset().top
-				}, 2000);
+				}, 1000);
 			});
 			$("#projects-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#projects").offset().top
-				}, 2000);
+				}, 1000);
 			});
 			$("#contact-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#contact").offset().top
-				}, 2000);
+				}, 1000);
 			});
 			$(window).scroll(function() {
 				var windowHeight = $(window).height();
