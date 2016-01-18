@@ -22,6 +22,9 @@ div.navigation ul {
 	padding: 0;
 	margin: 0;
 }
+div.navigation ul li.active {
+	font-weight: 700;
+}
 
 div.main-container {
 	width: 100%;

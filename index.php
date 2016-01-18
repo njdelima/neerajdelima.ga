@@ -12,7 +12,7 @@
 <body>
 	<div class="navigation">
 		<ul>
-			<li>| Introduction</li>
+			<li class="active">| Introduction</li>
 			<li>| About Me</li>
 			<li>| Projects</li>
 			<li>| Contact</li>
