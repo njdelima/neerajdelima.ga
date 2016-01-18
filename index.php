@@ -169,16 +169,16 @@
 				var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
 				if (mid < introBottom) {
 					$(".nav-button").removeClass("active");
-					$("#introduction-nav").addClass("active");
+					$("#introduction-nav").addClass("active", 200);
 				} else if (mid > introBottom && mid < aboutBottom) {
 					$(".nav-button").removeClass("active");
-					$("#about-nav").addClass("active");
+					$("#about-nav").addClass("active", 200);
 				} else if (mid > aboutBottom && mid < projectsBottom) {
 					$(".nav-button").removeClass("active");
-					$("#projects-nav").addClass("active");
+					$("#projects-nav").addClass("active", 200);
 				} else {
 					$(".nav-button").removeClass("active");
-					$("#contact-nav").addClass("active");
+					$("#contact-nav").addClass("active", 200);
 				}
 
 			});
