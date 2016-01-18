@@ -49,3 +49,12 @@ p.about {
 	text-align: center;
 	line-height: 120%;
 }
+p.about a {
+	text-decoration: none;
+	color: orangered;
+	font-weight: 700;
+}
+
+p.about a:hover {
+	text-decoration: underline;
+}
