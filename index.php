@@ -48,7 +48,7 @@
 		<p>
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
 		</p> -->
-		<hr />
+		<hr id="introduction-end" />
 		<h2 id="about">About Me</h2>
 		<p class="about">
 			I was born in Mumbai, India.
@@ -100,7 +100,7 @@
 			to stay happy even when things don't go my way.<br />
 		</p>
 
-		<hr />
+		<hr id="about-end" />
 		<h2 id="projects">Projects</h2>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
@@ -116,7 +116,7 @@
 		<p> Dolor sit amet</p>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
-		<hr />
+		<hr id="projects-end" />
 		<h2 id="contact">Contact Me</h2>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p><p> Lorem ipsum</p>
@@ -161,15 +161,15 @@
 				$(this).removeClass("semi-active");
 			});
 
-			var introBottom = $("#introduction").offset().top + $("#introduction").height();
-			var aboutBottom = $("#about").offset().top + $("#about").height();
-			var projectsBottom = $("#projects").offset().top + $("#projects").height();
+			var introBottom = $("#introduction-end").offset().top;
+			var aboutBottom = $("#about-end").offset().top;
+			var projectsBottom = $("#projects-end").offset().top;
 
 			$(window).scroll(function() {
 				var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
-				alert("window.scrollTop + height / 2 = " + mid);
-				alert("introBottom = " + introBottom);
-				alert("aboutBottom = " + aboutBottom);
+				//alert("window.scrollTop + height / 2 = " + mid);
+				//alert("introBottom = " + introBottom);
+				//alert("aboutBottom = " + aboutBottom);
 				if (mid > introBottom && mid < aboutBottom) {
 					$(".nav-button").removeClass("active");
 					$("#about-nav").addClass("active");
