@@ -24,7 +24,7 @@ div.navigation ul {
 }
 div.navigation ul li.active {
 	font-weight: 500;
-	font-size: 2em;
+	//font-size: 2em;
 }
 
 div.main-container {
