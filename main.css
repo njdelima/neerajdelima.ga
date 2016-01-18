@@ -27,6 +27,11 @@ div.navigation ul li.active {
 	font-size: 1.5em;
 }
 
+div.navigation ul li a {
+	text-decoration: none;
+	color: black;
+}
+
 div.main-container {
 	width: 100%;
 	margin-left: auto;
