@@ -47,7 +47,7 @@ p {
 }
 p.about {
 	text-align: center;
-	line-height: 120%;
+	line-height: 100%;
 }
 p.about a {
 	text-decoration: none;

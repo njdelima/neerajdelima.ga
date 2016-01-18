@@ -43,31 +43,48 @@
 		<hr />
 		<h2>About Me</h2>
 		<p class="about">
-			I was born in Mumbai, India.<br />
-			I'm currently based in Atlanta, GA.<br />
+			I was born in Mumbai, India.
+		</p>
+		<p class="about">
+			I'm currently based in Atlanta, GA.
+		</p>
+		<p class="about">
 			I'm enrolled at the Georgia Institute of Technology studying Computer Science and graduating
-			in 2018.<br />
+			in 2018.
+		</p>
+		<p class="about">
 			I work as an Associate Software Engineer at
 			<a target="_blank" href="http://www.codemettle.com/">
 				CodeMettle, LLC.
-			</a><br />
+			</a>
+		</p>
+		<p class="about">
 			I work as a System Administrator for a number of websites and organizations, most notably
 			<a target="_blank" href="https://furnex.ca">
-				Furnex.
+				Furnex
 			</a>
+			in Toronto.
+		</p>
+		<p class="about">
  			I support the 
 			<a target="_blank" href="http://espn.go.com/nba/team/_/name/atl/atlanta-hawks">
 				Atlanta Hawks
 			</a> and the 
 			<a target="_blank" href="http://www.ramblinwreck.com">
 				Georgia Tech Yellow Jackets.
-			</a><br />
+			</a>
+		</p>
+		<p class="about">
 			I'm obsessed with American New Wave cinema (1967 — 1982) and 
 			<a target="_blank" href="https://en.wikipedia.org/wiki/New_Hollywood#List_of_notable_films">
 				this
 			</a>
-			is the list of films I'm working on watching.<br />
-			I'm learning Mandarin Chinese and aim to be fluent by the end of 2016.<br />
+			is the list of films I'm working on watching.
+		</p>
+		<p class="about">
+			I'm learning Mandarin Chinese and aim to be fluent by the end of 2016.
+		</p>
+		<p class="about">
 			I use
 			<a target="_blank" href="http://positivesharing.com/2014/09/natural-and-synthetic-happiness-at-work/">
 				synthetic happiness
