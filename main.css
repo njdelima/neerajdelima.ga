@@ -26,6 +26,8 @@ div.navigation ul {
 div.navigation ul li.semi-active {
 	font-weight: 500;
 	font-size: 1.3em;
+	-webkit-transition: font-size 2s ease;
+	transition: font-size 2s ease;
 }
 div.navigation ul li.active {
 	font-weight: 500;
