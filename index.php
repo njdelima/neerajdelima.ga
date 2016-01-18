@@ -12,10 +12,10 @@
 <body>
 	<div class="navigation">
 		<ul>
-			<li id="introduction-nav" class="active"><a href="#introduction">| Introduction</a></li>
-			<li id="about-nav"><a href="#about">| About Me</a></li>
-			<li id="projects-nav"><a href="#projects">| Projects</a></li>
-			<li id="contact-nav"><a href="#contact">| Contact Me</a></li>
+			<li id="introduction-nav" class="active nav-button"><a href="#introduction">| Introduction</a></li>
+			<li id="about-nav" class="nav-button"><a href="#about">| About Me</a></li>
+			<li id="projects-nav" class="nav-button"><a href="#projects">| Projects</a></li>
+			<li id="contact-nav" class="nav-button"><a href="#contact">| Contact Me</a></li>
 		</ul>
 	</div>
 	<div class="main-container">
@@ -133,21 +133,30 @@
 				$("html, body").animate({
 					scrollTop: $("#introduction").offset().top
 				}, 1000);
+				$(".nav-button").removeClass("active");
+				$(this).addClass("active");
+
 			});
 			$("#about-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#about").offset().top
 				}, 1000);
+				$(".nav-button").removeClass("active");
+				$(this).addClass("active");
 			});
 			$("#projects-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#projects").offset().top
 				}, 1000);
+				$(".nav-button").removeClass("active");
+				$(this).addClass("active");
 			});
 			$("#contact-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#contact").offset().top
 				}, 1000);
+				$(".nav-button").removeClass("active");
+				$(this).addClass("active");
 			});
 			$(window).scroll(function() {
 				var windowHeight = $(window).height();
