@@ -166,6 +166,7 @@
 			var projectsBottom = $("#projects").offset().top + $("#projects").height();
 
 			$(window).scroll(function() {
+				alert("window.scrollTop = " + $(window).scrollTop());
 				var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
 
 				if (mid > introBottom && mid < aboutBottom) {
