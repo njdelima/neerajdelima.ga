@@ -15,7 +15,7 @@
 			<li class="active">| Introduction</li>
 			<li>| About Me</li>
 			<li>| Projects</li>
-			<li>| Contact</li>
+			<li>| Contact Me</li>
 		</ul>
 	</div>
 	<div class="main-container">
@@ -102,6 +102,27 @@
 
 		<hr />
 		<h2 id="projects">Projects</h2>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<hr />
+		<h2 id="contact">Contact Me</h2>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p><p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
+		<p> Lorem ipsum</p>
+		<p> Dolor sit amet</p>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
 	</div>
