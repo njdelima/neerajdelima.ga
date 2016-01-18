@@ -47,7 +47,15 @@
 			I'm currently based in Atlanta, GA.<br />
 			I'm enrolled at the Georgia Institute of Technology studying Computer Science and graduating
 			in 2018.<br />
-			I support the 
+			I work as an Associate Software Engineer at
+			<a target="_blank" href="http://www.codemettle.com/">
+				CodeMettle, LLC.
+			</a><br />
+			I work as a System Administrator for a number of websites and organizations, most notably
+			<a target="_blank" href="https://furnex.ca">
+				Furnex.
+			</a>
+ 			I support the 
 			<a target="_blank" href="http://espn.go.com/nba/team/_/name/atl/atlanta-hawks">
 				Atlanta Hawks
 			</a> and the 
