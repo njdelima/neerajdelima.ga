@@ -12,10 +12,10 @@
 <body>
 	<div class="navigation">
 		<ul>
-			<li class="active">| Introduction</li>
-			<li>| About Me</li>
-			<li>| Projects</li>
-			<li>| Contact Me</li>
+			<li id="introduction-nav" class="active">| Introduction</li>
+			<li id="about-nav">| About Me</li>
+			<li id="projects-nav">| Projects</li>
+			<li id="contact-nav">| Contact Me</li>
 		</ul>
 	</div>
 	<div class="main-container">
@@ -129,6 +129,26 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$("#introduction-nav").click(function() {
+				$("html, body").animate({
+					scrollTop: $("#introduction").offset().top
+				}, 2000);
+			});
+			$("#about-nav").click(function() {
+				$("html, body").animate({
+					scrollTop: $("#about").offset().top
+				}, 2000);
+			});
+			$("#projects-nav").click(function() {
+				$("html, body").animate({
+					scrollTop: $("#projects").offset().top
+				}, 2000);
+			});
+			$("#contact-nav").click(function() {
+				$("html, body").animate({
+					scrollTop: $("#contact").offset().top
+				}, 2000);
+			});
 			$(window).scroll(function() {
 				var windowHeight = $(window).height();
 				//alert(windowHeight);
