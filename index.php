@@ -6,6 +6,8 @@
 	<meta name="description" content="" />
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
@@ -14,6 +16,17 @@
 		<hr />
 		<img src="photo.jpg" alt="Neeraj DeLima headshot" class="main-photo" />
 		<p>
+			Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer trying to disrupt
+			the status quo. I have a certain curiosity about most things in the universe, from astronomy to
+			politics, and I learn a lot every day from the things that I do and the people around me. I'm 
+			constantly trying to develop myself — intellectually, physically and socially — because I actually
+			listened to Mum when she said the sky's the limit.
+		</p>
+		<p>
+			Thanks for visiting my website! Keep scrolling to check out the rest of it and feel free to shoot
+			me a message below.
+		</p>
+		<!--<p>
 			Hello! My name's Neeraj DeLima and I'm a young, aspiring software developer, entrepreneur and dreamer whose
 			aim in life is to disrupt the status quo. I grew up in Mumbai, India but my experiences and good fortune have taken me
 			far away, to Atlanta, GA where I'm currently based. I have a certain curiosity about most things in the universe, from
@@ -27,12 +40,7 @@
 		</p>
 		<p>
 			Thanks for visiting my website! Keep scrolling to check out the rest of it and shoot me a message below.
-		</p>
-		<hr />
-		<h1>Resume</h1>
-		<a href="neeraj_delima_resume.pdf" target="_blank" class="resume-link">
-			<img class="resume-img" src="resume_snapshot.png" alt="preview of Neeraj's resume" />
-		</a>
+		</p> -->
 		<hr />
 		<p>
 			Lorem ipsum
