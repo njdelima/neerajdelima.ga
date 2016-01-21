@@ -107,6 +107,10 @@
 				echo "Error: can't open \".\"";
 				exit();
 			}
+			$folders = array();
+			while(($file = readdir($dh)) !== false) {
+				echo $file + "\n";
+			}
 		?>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
