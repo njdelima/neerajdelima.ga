@@ -109,7 +109,30 @@
 			}
 			$folders = array();
 			while(($file = readdir($dh)) !== false) {
-				echo $file . "<br />";
+				// only directories
+				if (is_dir($file)) {
+					// not . or ..
+					if ($file[0] == '.') {
+						continue;
+					}
+					$folders[] = $file;
+				}
+			}
+			closedir($dh);
+
+			sort($folders);
+
+			foreach ($folders as $folder) {
+				if (!($dh = opendir("./" . $folder))) {
+					echo "Error: can't open " . $folder;
+					exit();
+				}
+				while (($file = readdir($dh)) !== false) {
+					if ($file[0] == '.') {
+						continue;
+					}
+					echo $file . "<br />";
+				}
 			}
 		?>
 		<p> Lorem ipsum</p>
