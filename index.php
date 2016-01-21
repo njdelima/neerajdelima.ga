@@ -119,8 +119,9 @@
 				}
 			}
 			closedir($dh);
-
+			echo "about to sort " . $folders;
 			sort($folders);
+			echo "just sorted " . $folders;
 
 			foreach ($folders as $folder) {
 				if (!($dh = opendir("./" . $folder))) {
