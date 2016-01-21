@@ -111,6 +111,7 @@
 			while(($file = readdir($dh)) !== false) {
 				echo "File = " . $file;
 				// only directories
+				echo $dh . $file;
 				if (is_dir($dh . "/" . $file)) {
 					echo "DIRECTORY";
 					// not . or ..
