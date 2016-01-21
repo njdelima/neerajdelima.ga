@@ -103,7 +103,10 @@
 		<hr id="about-end" />
 		<h2 id="projects">Projects</h2>
 		<?php
-			echo "Hello, world!";
+			if (!($dh = opendir("projects"))) {
+				echo "Error: can't open \".\"";
+				exit();
+			}
 		?>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
