@@ -130,7 +130,9 @@
 					if ($file[0] == '.') {
 						continue;
 					}
-					echo $file . "<br />";
+					if ($file === "description.txt") {
+						echo file_get_contents($file);
+					}
 				}
 			}
 		?>
