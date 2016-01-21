@@ -131,7 +131,7 @@
 						continue;
 					}
 					if ($file === "description.txt") {
-						echo file_get_contents($file);
+						echo file_get_contents("./projects/" . $folder . "/" . $file);
 					}
 				}
 			}
