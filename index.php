@@ -115,6 +115,7 @@
 					if ($file[0] == '.') {
 						continue;
 					}
+					echo "File = " . $file;
 					$folders[] = $file;
 				}
 			}
