@@ -109,10 +109,8 @@
 			}
 			$folders = array();
 			while(($file = readdir($dh)) !== false) {
-				echo "File = " . $file;
 				// only directories
 				if (is_dir("./projects/" . $file)) {
-					echo "DIRECTORY";
 					// not . or ..
 					if ($file[0] == '.') {
 						continue;
@@ -124,7 +122,7 @@
 			sort($folders);
 
 			foreach ($folders as $folder) {
-				if (!($dh = opendir("./" . $folder))) {
+				if (!($dh = opendir("./projects/" . $folder))) {
 					echo "Error: can't open " . $folder;
 					exit();
 				}
