@@ -126,18 +126,18 @@
 					echo "Error: can't open " . $folder;
 					exit();
 				}
+				echo "<div class='project-thumbnail'>";
+
 				while (($file = readdir($dh)) !== false) {
 					if ($file[0] == '.') {
 						continue;
 					}
-					echo "<div class='project-thumbnail'>";
-
 					if ($file === "description.txt") {
 						echo "<p class='project-description'>" . file_get_contents("./projects/" . $folder . "/" . $file) . "</p>";
 					}
-
-					echo "</div>";
 				}
+
+				echo "</div>";
 			}
 		?>
 		<p> Lorem ipsum</p>
