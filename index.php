@@ -112,7 +112,7 @@
 				echo $file . "<br />";
 				// only directories
 				if (is_dir($file)) {
-					echo $file . "<br />";
+					echo $file . "is a directory <br />";
 					// not . or ..
 					if ($file[0] == '.') {
 						continue;
