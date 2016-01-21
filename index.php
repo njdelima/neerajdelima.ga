@@ -109,7 +109,7 @@
 			}
 			$folders = array();
 			while(($file = readdir($dh)) !== false) {
-				echo $file;
+				echo $file . "\n";
 			}
 		?>
 		<p> Lorem ipsum</p>
