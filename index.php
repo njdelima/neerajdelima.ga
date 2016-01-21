@@ -121,7 +121,7 @@
 			closedir($dh);
 			echo "about to sort " . $folders;
 			sort($folders);
-			echo "just sorted " . print_r($folders);
+			print_r($folders);
 
 			foreach ($folders as $folder) {
 				if (!($dh = opendir("./" . $folder))) {
