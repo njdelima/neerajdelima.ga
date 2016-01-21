@@ -109,6 +109,7 @@
 			}
 			$folders = array();
 			while(($file = readdir($dh)) !== false) {
+				echo $file;
 				// only directories
 				if (is_dir($file)) {
 					// not . or ..
