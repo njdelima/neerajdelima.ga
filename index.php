@@ -130,9 +130,13 @@
 					if ($file[0] == '.') {
 						continue;
 					}
+					echo "<div class='project-thumbnail'>";
+
 					if ($file === "description.txt") {
-						echo file_get_contents("./projects/" . $folder . "/" . $file);
+						echo "<p class='project-description'>" . file_get_contents("./projects/" . $folder . "/" . $file) . "</p>";
 					}
+
+					echo "</div>";
 				}
 			}
 		?>
