@@ -109,22 +109,19 @@
 			}
 			$folders = array();
 			while(($file = readdir($dh)) !== false) {
-				echo $file . "<br />";
+				echo "File = " . $file;
 				// only directories
 				if (is_dir("./" . $file)) {
-					echo $file . "is a directory <br />";
+
 					// not . or ..
 					if ($file[0] == '.') {
 						continue;
 					}
-					echo "File = " . $file;
 					$folders[] = $file;
 				}
 			}
 			closedir($dh);
-			echo "about to sort " . $folders;
 			sort($folders);
-			print_r($folders);
 
 			foreach ($folders as $folder) {
 				if (!($dh = opendir("./" . $folder))) {
