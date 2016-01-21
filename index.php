@@ -102,6 +102,9 @@
 
 		<hr id="about-end" />
 		<h2 id="projects">Projects</h2>
+		<?php
+			echo "Hello, world!";
+		?>
 		<p> Lorem ipsum</p>
 		<p> Dolor sit amet</p>
 		<p> Lorem ipsum</p>
