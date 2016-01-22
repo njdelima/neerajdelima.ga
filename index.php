@@ -273,12 +273,19 @@
 			}
 
 			$(".project-thumbnail").click(function() {
+				alert("Started click function.");
 
 				if ($(this).hasClass("expanded")) {
+
+					alert("$(this) already has expanded class");
+
 					collapse_project($(this));
 				} else {
+					alert("$(this) doesn't have expanded class... expanding...");
+
 					collapse_project($(".project-thumbnail.expanded"));
 
+					alert("Checkpoint");
 					var expansionText = $(this).next(".project-expansion").detach();
 
 					find_last_of_row($(this)).after(expansionText);
