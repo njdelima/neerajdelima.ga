@@ -249,14 +249,19 @@
 				var width = $(".main-container").width();
 
 				if (width >= 639) {
+					alert("width > 639");
 					if (project.prev(".project-thumbnail").length == 0) {
+						alert("First thumbnail of section");
 						return project.next(".project-thumbnail").next(".project-thumbnail");
 					}
 					if (project.prev(".project-thumbnail").offset().top === project.prev(".project-thumbnail").prev(".project-thumbnail").offset().top === project.offset().top) {
+						alert("Last thumbnail of row");
 						return project;
 					} else if (project.prev(".project-thumbnail").offset().top === project.next(".project-thumbnail").offset().top === project.offset().top) {
+						alert("Middle thumbnail of row");
 						return project.next(".project-thumbnail");
 					} else {
+						alert("First thumbnail of row");
 						return project.next(".project-thumbnail").next(".project-thumbnail");
 					}
 				} else if (width >= 417 && width <= 638) {
