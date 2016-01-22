@@ -255,6 +255,18 @@
 						return project.nextAll(".project-thumbnail").eq(1);
 					}
 
+					var prevTop = project.prevAll(".project-thumbnail").eq(0).offset().top;
+					var nextTop = project.nextAll(".project-thumbnail").eq(0).offset().top;
+					var curTop = project.offset().top;
+
+					alert("prevTop = " + prevTop);
+					alert("nextTop = " + nextTop);
+					alert("curTop = " + curTop);
+
+					if (curTop === prevTop && curTop === nextTop) {
+						alert("ALL EQUAL");
+					}
+
 					if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
 						project.offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top) {
 
