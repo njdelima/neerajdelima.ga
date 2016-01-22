@@ -98,3 +98,7 @@ p.about a:hover {
 	min-width: 200px;
 	margin: 1%;
 }
+
+.project-thumbnail img {
+	width: 100%;
+}
