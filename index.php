@@ -126,7 +126,18 @@
 					echo "Error: can't open " . $folder;
 					exit();
 				}
-				echo "<div class='project-thumbnail'>" . $folder . "</div>";
+
+				$files = array();
+
+				while (($file = readdir($dh)) !== false) [
+					if ($file[0] == '.') {
+						continue;
+					}
+					$files[] = $file;
+				}
+				print_r($files);
+				echo "<div class='project-thumbnail'></div>";
+
 				/*
 				while (($file = readdir($dh)) !== false) {
 					if ($file[0] == '.') {

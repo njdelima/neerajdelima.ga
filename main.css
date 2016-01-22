@@ -96,6 +96,5 @@ p.about a:hover {
 	display: block;
 	width: 31.33333333%;
 	min-width: 200px;
-	margin-right: 1%;
-	margin-left: 1%;
+	margin: 1%;
 }
