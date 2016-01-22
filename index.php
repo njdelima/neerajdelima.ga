@@ -232,9 +232,9 @@
 
 			});
 			$(".project-thumbnail").mouseenter(function() {
-				$(this).children(".thumbnail-overlay").show(400);
+				$(this).children(".thumbnail-overlay").show("slide",{direction:"top"}, 400);
 			}).mouseleave(function() {
-				$(this).children(".thumbnail-overlay").hide(400);
+				$(this).children(".thumbnail-overlay").hide("slide",{direction:"top"}, 400);
 			});
 
 		});
