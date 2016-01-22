@@ -229,6 +229,7 @@
 
 			$(".project-thumbnail").click(function() {
 				$(this).toggleClass("expanded");
+				alert($(".main-container").width());
 				$(this).next(".project-expansion").toggleClass("expanded");
 			});
 
