@@ -263,10 +263,16 @@
 					alert("nextTop = " + nextTop);
 					alert("curTop = " + curTop);
 
+					if (prevTop == nextTop == curTop) {
+						alert("ALL EQUAL");
+					}
+
 					if (project.prevAll(".project-thumbnail").eq(0).offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top === project.offset().top) {
 						alert("Last thumbnail of row");
 						return project;
-					} else if (project.prevAll(".project-thumbnail").eq(0).offset().top == project.nextAll(".project-thumbnail").eq(0).offset().top == project.offset().top) {
+					} else if (prevTop == nextTop == curTop) {
+
+					//else if (project.prevAll(".project-thumbnail").eq(0).offset().top == project.nextAll(".project-thumbnail").eq(0).offset().top == project.offset().top) {
 						alert("Middle thumbnail of row");
 						return project.nextAll(".project-thumbnail").eq(0);
 					} else {
