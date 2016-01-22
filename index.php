@@ -289,7 +289,7 @@
 
 					var expansionText = $(this).next(".project-expansion").detach();
 
-					alert("Detached expansionText = " + expansionText.innerHTML());
+					alert("Detached expansionText = " + expansionText.html());
 					
 					find_last_of_row($(this)).after(expansionText);
 
