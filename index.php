@@ -255,24 +255,14 @@
 						return project.nextAll(".project-thumbnail").eq(1);
 					}
 
-					var prevTop = Math.round(project.prevAll(".project-thumbnail").eq(0).offset().top);
-					var nextTop = Math.round(project.nextAll(".project-thumbnail").eq(0).offset().top);
-					var curTop = Math.round(project.offset().top);
+					if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
+						project.offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top) {
 
-					alert("prevTop = " + prevTop);
-					alert("nextTop = " + nextTop);
-					alert("curTop = " + curTop);
-
-					if (prevTop == nextTop) {
-						alert("ALL EQUAL");
-					}
-
-					if (project.prevAll(".project-thumbnail").eq(0).offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top === project.offset().top) {
 						alert("Last thumbnail of row");
 						return project;
-					} else if (prevTop == nextTop == curTop) {
+					} else if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
+							   project.offset().top === project.nextAll(".project-thumbnail").eq(0).offset().top) {
 
-					//else if (project.prevAll(".project-thumbnail").eq(0).offset().top == project.nextAll(".project-thumbnail").eq(0).offset().top == project.offset().top) {
 						alert("Middle thumbnail of row");
 						return project.nextAll(".project-thumbnail").eq(0);
 					} else {
