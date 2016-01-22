@@ -231,17 +231,17 @@
 				var width = $(".main-container").width();
 
 				if (project.hasClass("expanded")) {
-					var expansionText = find_last_of_row(project).next(".project-expansion").detach();
+					var expansionText = find_last_of_row(project).nextAll(".project-expansion").eq(0).detach();
 
 					project.after(expansionText);
 					project.removeClass("expanded");
-					project.next(".project-expansion").removeClass("expanded");
+					project.nextAll(".project-expansion").eq(0).removeClass("expanded");
 				}
 			}
 
 			function find_last_of_row(project) {
-			
-				if (project.next(".project-thumbnail").length == 0) {
+				alert("project = " + project.html());
+				if (project.nextAll(".project-thumbnail").length == 0) {
 					alert("Last thumbnail of section");
 					return project;
 				}
@@ -250,28 +250,28 @@
 
 				if (width >= 639) {
 					alert("width > 639");
-					if (project.prev(".project-thumbnail").length == 0) {
+					if (project.prevAll(".project-thumbnail").length == 0) {
 						alert("First thumbnail of section");
-						return project.next(".project-thumbnail").next(".project-thumbnail");
+						return project.nextAll(".project-thumbnail").eq(1);
 					}
-					if (project.prev(".project-thumbnail").offset().top === project.prev(".project-thumbnail").prev(".project-thumbnail").offset().top === project.offset().top) {
+					if (project.prevAll(".project-thumbnail").eq(0).offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top === project.offset().top) {
 						alert("Last thumbnail of row");
 						return project;
-					} else if (project.prev(".project-thumbnail").offset().top === project.next(".project-thumbnail").offset().top === project.offset().top) {
+					} else if (project.prevAll(".project-thumbnail").eq(0).offset().top === project.nextAll(".project-thumbnail").eq(0).offset().top === project.offset().top) {
 						alert("Middle thumbnail of row");
-						return project.next(".project-thumbnail");
+						return project.nextAll(".project-thumbnail").eq(0);
 					} else {
 						alert("First thumbnail of row");
-						return project.next(".project-thumbnail").next(".project-thumbnail");
+						return project.nextAll(".project-thumbnail").eq(1);
 					}
 				} else if (width >= 417 && width <= 638) {
-					if (project.prev(".project-thumbnail").length == 0) {
-						return project.next(".project-thumbnail");
+					if (project.prevAll(".project-thumbnail").length == 0) {
+						return project.nextAll(".project-thumbnail").eq(0);
 					}
-					if (project.prev(".project-thumbnail").offset().top === project.offset().top) {
+					if (project.prevAll(".project-thumbnail").eq(0).offset().top === project.offset().top) {
 						return project;
 					} else {
-						return project.next(".project-thumbnail");
+						return project.nextAll(".project-thumbnail").eq(0);
 					}
 				} else if (width <= 416) {
 					return project;
@@ -298,7 +298,6 @@
 					alert("Detached expansionText = " + expansionText.html());
 					
 
-					alert("Last of row = " + find_last_of_row($(this)).html());
 
 					find_last_of_row($(this)).after(expansionText);
 
