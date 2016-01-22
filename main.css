@@ -89,3 +89,11 @@ p.about a {
 p.about a:hover {
 	text-decoration: underline;
 }
+
+#projects .project-thumbnail {
+	border: 1px solid;
+	float: left;
+	display: block;
+	width: 33%;
+	min-width: 200px;
+}
