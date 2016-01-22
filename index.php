@@ -137,6 +137,7 @@
 				}
 				echo "<div class='project-thumbnail'>";
 				echo "<img alt='project thumbnail' src='./projects/" . $folder . "/" . $files[0] . "' />";
+				echo "<div class='thumbnail-overlay'>" . $folder . "</div>";
 				echo "</div>";
 
 				/*

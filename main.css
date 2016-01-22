@@ -102,3 +102,6 @@ p.about a:hover {
 .project-thumbnail img {
 	width: 100%;
 }
+
+.project-thumbnail .thumbnail-overlay {
+}
