@@ -129,7 +129,7 @@
 
 				$files = array();
 
-				while (($file = readdir($dh)) !== false) [
+				while (($file = readdir($dh)) !== false) {
 					if ($file[0] == '.') {
 						continue;
 					}
