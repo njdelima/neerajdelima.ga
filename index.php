@@ -231,6 +231,13 @@
 				}
 
 			});
+			$(".project-thumbnail").mouseenter(function() {
+				$(".project-thumbnail .thumbnail-overlay").show(400);
+			});
+			$(".project-thumbnail").mouseleave(function() {
+				$(".project-thumbnail .thumbnail-overlay").hide(400);
+			});
+			
 		});
 	</script>
 </body>
