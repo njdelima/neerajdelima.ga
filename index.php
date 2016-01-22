@@ -142,7 +142,8 @@
 				echo "</div>";
 
 				echo "<div class='project-expansion'>";
-				print_r($files);
+				echo file_get_contents("./projects/" . $folder . "/description.txt");
+
 				echo "</div>";
 
 				/*
