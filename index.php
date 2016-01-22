@@ -263,7 +263,7 @@
 					alert("nextTop = " + nextTop);
 					alert("curTop = " + curTop);
 
-					if (prevTop == nextTop == curTop) {
+					if (prevTop == nextTop) {
 						alert("ALL EQUAL");
 					}
 
