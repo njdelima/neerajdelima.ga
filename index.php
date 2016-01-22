@@ -141,11 +141,11 @@
 				echo "<div class='thumbnail-overlay'>" . $folder . "</div>";
 				echo "</div>";
 
-				echo "<div class='project-expansion'>";
+				/*echo "<div class='project-expansion'>";
 				echo file_get_contents("./projects/" . $folder . "/description.txt");
 
 				echo "</div>";
-
+				*/
 				/*
 				while (($file = readdir($dh)) !== false) {
 					if ($file[0] == '.') {
