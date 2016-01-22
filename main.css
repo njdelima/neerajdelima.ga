@@ -119,3 +119,8 @@ p.about a:hover {
 	font-weight: 100;
 	display: none;
 }
+
+.project-expansion {
+	display: none;
+}
+
