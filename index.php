@@ -242,6 +242,7 @@
 			function find_last_of_row(project) {
 			
 				if (project.next(".project-thumbnail").length == 0) {
+					alert("Last thumbnail of section");
 					return project;
 				}
 
