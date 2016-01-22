@@ -227,6 +227,11 @@
 				$(this).children(".thumbnail-overlay").fadeOut(200);
 			});
 
+			$(
+			$(".project-thumbnail").click(function() {
+				$(this).toggleClass("expanded");
+				$(this).next(".project-expansion").toggleClass("expanded");
+			});
 
 		});
 	</script>

@@ -124,3 +124,13 @@ p.about a:hover {
 	display: none;
 }
 
+
+.project-thumbnail.expanded {
+	display: block;
+}
+
+.project-expansion.expanded {
+	display: block;
+	width: 100%;
+	background-color: #aaa;
+}
