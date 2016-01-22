@@ -232,10 +232,9 @@
 
 			});
 			$(".project-thumbnail").mouseenter(function() {
-				$(this > ".thumbnail-overlay").show(400);
-			});
-			$(".project-thumbnail").mouseleave(function() {
-				$(this > ".thumbnail-overlay").hide(400);
+				$(this).children(".thumbnail-overlay").show(400);
+			}).mouseleave(function() {
+				$(this).children(".thumbnail-overlay").hide(400);
 			});
 
 		});
