@@ -253,6 +253,8 @@
 					if (project.prevAll(".project-thumbnail").length == 0) {
 						alert("First thumbnail of section");
 						return project.nextAll(".project-thumbnail").eq(1);
+					} else if (project.prevAll(".project-thumbnail").length == 1) {
+						return project.nextAll(".project-thumbnail").eq(0);
 					}
 
 					var prevTop = project.prevAll(".project-thumbnail").eq(0).offset().top;
