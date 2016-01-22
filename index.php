@@ -136,7 +136,7 @@
 					$files[] = $file;
 				}
 				echo "<div class='project-thumbnail'>";
-				echo "<img alt='project thumbnail' style='width:800px;height:800px;' src='./projects/" . $folder . "/" . $files[0] . "' />";
+				echo "<img alt='project thumbnail' src='./projects/" . $folder . "/" . $files[0] . "' />";
 				echo "</div>";
 
 				/*
