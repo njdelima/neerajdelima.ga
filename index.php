@@ -255,9 +255,9 @@
 						return project.nextAll(".project-thumbnail").eq(1);
 					}
 
-					var prevTop = project.prevAll(".project-thumbnail").eq(0).offset().top;
-					var nextTop = project.nextAll(".project-thumbnail").eq(0).offset().top;
-					var curTop = project.offset().top;
+					var prevTop = Math.round(project.prevAll(".project-thumbnail").eq(0).offset().top);
+					var nextTop = Math.round(project.nextAll(".project-thumbnail").eq(0).offset().top);
+					var curTop = Math.round(project.offset().top);
 
 					alert("prevTop = " + prevTop);
 					alert("nextTop = " + nextTop);
