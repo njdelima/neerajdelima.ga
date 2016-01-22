@@ -90,7 +90,7 @@ p.about a:hover {
 	text-decoration: underline;
 }
 
-#projects .project-thumbnail {
+.project-thumbnail {
 	border: 1px solid;
 	float: left;
 	display: block;
