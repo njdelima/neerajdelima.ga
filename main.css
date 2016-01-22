@@ -99,6 +99,7 @@ p.about a:hover {
 	min-width: 200px;
 	margin: 1%;
 	position: relative;
+	cursor: pointer;
 }
 
 .project-thumbnail img {

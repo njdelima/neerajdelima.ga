@@ -151,20 +151,7 @@
 				}*/
 			}
 		?>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
+		
 		<hr id="projects-end" />
 		<h2 id="contact">Contact Me</h2>
 		<p> Lorem ipsum</p>
