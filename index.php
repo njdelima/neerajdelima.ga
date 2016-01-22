@@ -285,13 +285,20 @@
 
 					collapse_project($(".project-thumbnail.expanded"));
 
-					alert("Checkpoint");
+					alert("Finished collapsing other thumbnails.");
+
 					var expansionText = $(this).next(".project-expansion").detach();
 
+					alert("Detached expansionText = " + expansionText);
+					
 					find_last_of_row($(this)).after(expansionText);
 
+					alert("Found last of row and inserted expansionText");
+
 					$(this).toggleClass("expanded");
+					alert("toggle class for thumbnail");
 					expansionText.toggleClass("expanded");
+					alert("toggle class for expansion");
 				}
 			});
 
