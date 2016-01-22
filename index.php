@@ -141,6 +141,10 @@
 				echo "<div class='thumbnail-overlay'>" . $folder . "</div>";
 				echo "</div>";
 
+				echo "<div class='project-expansion'>";
+				print_r($files);
+				echo "</div>";
+
 				/*
 				while (($file = readdir($dh)) !== false) {
 					if ($file[0] == '.') {
