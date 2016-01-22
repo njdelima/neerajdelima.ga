@@ -135,8 +135,9 @@
 					}
 					$files[] = $file;
 				}
-				print_r($files);
-				echo "<div class='project-thumbnail'></div>";
+				echo "<div class='project-thumbnail'>";
+				echo "<img alt='project thumbnail' src='./projects/" . $folder . "/" . $files[0] . "' />";
+				echo "</div>";
 
 				/*
 				while (($file = readdir($dh)) !== false) {
