@@ -240,18 +240,18 @@
 			}
 
 			function find_last_of_row(project) {
-				alert("project = " + project.html());
+		//		alert("project = " + project.html());
 				if (project.nextAll(".project-thumbnail").length == 0) {
-					alert("Last thumbnail of section");
+		//			alert("Last thumbnail of section");
 					return project;
 				}
 
 				var width = $(".main-container").width();
 
 				if (width >= 639) {
-					alert("width > 639");
+		//			alert("width > 639");
 					if (project.prevAll(".project-thumbnail").length == 0) {
-						alert("First thumbnail of section");
+		//				alert("First thumbnail of section");
 						return project.nextAll(".project-thumbnail").eq(1);
 					} else if (project.prevAll(".project-thumbnail").length == 1) {
 						return project.nextAll(".project-thumbnail").eq(0);
@@ -261,27 +261,27 @@
 					var nextTop = project.nextAll(".project-thumbnail").eq(0).offset().top;
 					var curTop = project.offset().top;
 
-					alert("prevTop = " + prevTop);
-					alert("nextTop = " + nextTop);
-					alert("curTop = " + curTop);
+		//			alert("prevTop = " + prevTop);
+		//			alert("nextTop = " + nextTop);
+		//			alert("curTop = " + curTop);
 
 					if (curTop === prevTop && curTop === nextTop) {
-						alert("ALL EQUAL");
+		//				alert("ALL EQUAL");
 					}
 
 					if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
 						project.offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top) {
 
-						alert("Last thumbnail of row");
+		//				alert("Last thumbnail of row");
 						return project;
 					} else if (curTop === prevTop && curTop === nextTop) {
 					// else if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
 							//   project.offset().top === project.nextAll(".project-thumbnail").eq(0).offset().top) {
 
-						alert("Middle thumbnail of row");
+		//				alert("Middle thumbnail of row");
 						return project.nextAll(".project-thumbnail").eq(0);
 					} else {
-						alert("First thumbnail of row");
+		//				alert("First thumbnail of row");
 						return project.nextAll(".project-thumbnail").eq(1);
 					}
 				} else if (width >= 417 && width <= 638) {
@@ -299,34 +299,34 @@
 			}
 
 			$(".project-thumbnail").click(function() {
-				alert("Started click function.");
+		//		alert("Started click function.");
 
 				if ($(this).hasClass("expanded")) {
 
-					alert("$(this) already has expanded class");
+		//			alert("$(this) already has expanded class");
 
 					collapse_project($(this));
 				} else {
-					alert("$(this) doesn't have expanded class... expanding...");
+		//			alert("$(this) doesn't have expanded class... expanding...");
 
 					collapse_project($(".project-thumbnail.expanded"));
 
-					alert("Finished collapsing other thumbnails.");
+		//			alert("Finished collapsing other thumbnails.");
 
 					var expansionText = $(this).next(".project-expansion").detach();
 
-					alert("Detached expansionText = " + expansionText.html());
+		//			alert("Detached expansionText = " + expansionText.html());
 					
 
 
 					find_last_of_row($(this)).after(expansionText);
 
-					alert("Found last of row and inserted expansionText");
+		//			alert("Found last of row and inserted expansionText");
 
 					$(this).toggleClass("expanded");
-					alert("toggle class for thumbnail");
+		//			alert("toggle class for thumbnail");
 					expansionText.toggleClass("expanded");
-					alert("toggle class for expansion");
+		//			alert("toggle class for expansion");
 				}
 			});
 
