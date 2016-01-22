@@ -107,6 +107,12 @@ p.about a:hover {
 	}
 }
 
+@media screen and (max-width: 416px) {
+	.project-thumbnail {
+		width: 98%;
+	}
+}
+
 .project-thumbnail img {
 	width: 100%;
 }
