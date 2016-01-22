@@ -102,7 +102,6 @@
 
 		<hr id="about-end" />
 		<h2 id="projects">Projects</h2>
-		<div class="projects-container">
 		<?php
 			if (!($dh = opendir("projects"))) {
 				echo "Error: can't open \".\"";
@@ -156,7 +155,6 @@
 				}*/
 			}
 		?>
-		</div>
 		<hr id="projects-end" />
 		<h2 id="contact">Contact Me</h2>
 		<p> Lorem ipsum</p>
