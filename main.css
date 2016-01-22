@@ -93,8 +93,7 @@ p.about a:hover {
 .project-thumbnail {
 	border: 1px solid;
 	border-radius: 3px;
-	float: left;
-	display: block;
+	display: inline-block;
 	width: 31.33333333%;
 	min-width: 200px;
 	margin: 1%;
