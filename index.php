@@ -274,7 +274,7 @@
 						return project;
 					} else if (curTop === prevTop && curTop === nextTop) {
 					// else if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
-							   project.offset().top === project.nextAll(".project-thumbnail").eq(0).offset().top) {
+							//   project.offset().top === project.nextAll(".project-thumbnail").eq(0).offset().top) {
 
 						alert("Middle thumbnail of row");
 						return project.nextAll(".project-thumbnail").eq(0);
