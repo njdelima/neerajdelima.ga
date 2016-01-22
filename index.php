@@ -291,6 +291,9 @@
 
 					alert("Detached expansionText = " + expansionText.html());
 					
+
+					alert("Last of row = " + find_last_of_row($(this)).html());
+
 					find_last_of_row($(this)).after(expansionText);
 
 					alert("Found last of row and inserted expansionText");
