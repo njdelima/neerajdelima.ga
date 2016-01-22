@@ -94,7 +94,7 @@ p.about a:hover {
 	border: 1px solid;
 	border-radius: 3px;
 	display: inline-block;
-	width: 31.33333333%;
+	width: 31.3333333333333%;
 	min-width: 200px;
 	margin: 1%;
 	position: relative;
@@ -103,7 +103,7 @@ p.about a:hover {
 
 @media screen and (max-width: 638px) {
 	.project-thumbnail {
-		width: 45%;
+		width: 48%;
 	}
 }
 
