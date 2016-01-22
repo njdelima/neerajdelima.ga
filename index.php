@@ -240,9 +240,17 @@
 			}
 
 			function find_last_of_row(project) {
+			
+				if (project.next(".project-thumbnail").length == 0) {
+					return project;
+				}
+
 				var width = $(".main-container").width();
 
 				if (width >= 639) {
+					if (project.prev(".project-thumbnail").length == 0) {
+						return project.next(".project-thumbnail").next(".project-thumbnail");
+					}
 					if (project.prev(".project-thumbnail").offset().top === project.prev(".project-thumbnail").prev(".project-thumbnail").offset().top === project.offset().top) {
 						return project;
 					} else if (project.prev(".project-thumbnail").offset().top === project.next(".project-thumbnail").offset().top === project.offset().top) {
@@ -251,6 +259,9 @@
 						return project.next(".project-thumbnail").next(".project-thumbnail");
 					}
 				} else if (width >= 417 && width <= 638) {
+					if (project.prev(".project-thumbnail").length == 0) {
+						return project.next(".project-thumbnail");
+					}
 					if (project.prev(".project-thumbnail").offset().top === project.offset().top) {
 						return project;
 					} else {
