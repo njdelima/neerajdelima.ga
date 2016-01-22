@@ -203,18 +203,12 @@
 				$(".nav-button").removeClass("active");
 				$(this).addClass("active");
 			});
-			$('.nav-button').hover(
-				function() { $(this).addClass("semi-active")};
-				function() { $(this).removeClass("semi-active")};
-			);
 
-
-			/*$(".nav-button").mouseenter(function() {
+			$(".nav-button").mouseenter(function() {
 				$(this).addClass("semi-active");
-			});
-			$(".nav-button").mouseleave(function() {
+			}).mouseleave(function() {
 				$(this).removeClass("semi-active");
-			});*/
+			});
 
 			var introBottom = $("#introduction-end").offset().top;
 			var aboutBottom = $("#about-end").offset().top;
