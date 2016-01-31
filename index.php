@@ -231,7 +231,7 @@
 				var width = $(".main-container").width();
 
 				if (project.hasClass("expanded")) {
-					var expansionText = find_last_of_row(project).nextAll(".project-expansion").eq(0).detach();
+					var expansionText = find_last_of_row(project).nextAll(".project-expansion").eq(0).animate({ "opacity": "0" }, "slow").detach();
 
 					project.after(expansionText);
 					expansionText.animate({ "opacity": "0" }, "slow");
