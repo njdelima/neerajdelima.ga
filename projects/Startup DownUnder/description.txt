@@ -1,3 +1,5 @@
+<strong>Startup DownUnder</strong>
+
 <p>Startup DownUnder was a startup company that aimed to showcase the undervalued entrepreneurial environment of Australia. Part of a management and entrepreneurship course, I teamed up with 5 classmates to develop this.</p>
 
 <p>We studied and implemented the <a href="https://en.wikipedia.org/wiki/Lean_startup">lean startup method</a>, which means we had to iterate our product several times. It started off as a documentary film, but once we realized that we had to build up a user base in order to get people to actually watch the film, it transitioned to a three year plan with a recurring web series and events.</p>

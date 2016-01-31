@@ -1,5 +1,7 @@
-<p>As part of a course in Human-Computer interaction I took while studying abroad in Australia, I designed the interface for an application that facilitates collaboration between musicians - “Resonance”. Though the application’s functionality is much too far fetched to actually be feasible, it was a lot of fun to visualize and design what the front-end for such a unique app would be.</p>
+<strong>Resonance</strong>
 
-<p>It was the first time I was exposed the the formal design process - we studied and implemented <a href=“https://en.wikipedia.org/wiki/User-centered_design”>user-centered design</a> which has proved extremely useful to me in the projects I’ve undertaken since then. The design principles and concepts of usability testing and iteration are things I will always follow as long as I’m in the industry.</p>
+<p>As part of a course in Human-Computer interaction I took while studying abroad in Australia, I designed the interface for an application that facilitates collaboration between musicians - "Resonance". Though the application’s functionality is much too far fetched to actually be feasible, it was a lot of fun to visualize and design what the front-end for such a unique app would be.</p>
 
-<p>If you like, you can check out some of the mockups <a href=“./projects/Resonance/wireframes/“>here</a>.
+<p>It was the first time I was exposed the the formal design process - we studied and implemented <a href="https://en.wikipedia.org/wiki/User-centered_design">user-centered design</a> which has proved extremely useful to me in the projects I’ve undertaken since then. The design principles and concepts of usability testing and iteration are things I will always follow as long as I’m in the industry.</p>
+
+<p>If you like, you can check out some of the mockups <a href="./projects/Resonance/wireframes/">here</a>.

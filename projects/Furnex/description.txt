@@ -1,3 +1,5 @@
-<p>Furnex is a curated online marketplace that allows customers to buy used furniture in their local communities. You can check out the live product at <a href=https://furnex.ca>https://furnex.ca</a>.
+<strong>Furnex</strong>
 
-<p>I work remotely for Furnex - which is based in Toronto - doing mostly system administration and front-end web development. It’s still in the early stages so it’s more of a “whatever’s needed” kind of job. Furnex is in the process of taking the Canadian furniture industry by storm, and you can check out some of the media attention it’s been getting <a href=https://www.youtube.com/watch?v=s81vdh-ApTY>here</a> and <a href=http://betakit.com/new-startup-next-toronto-cohort-gets-down-to-business/>here</a>. I’m excited for what the future holds with this one.</p>
+<p>Furnex is a curated online marketplace that allows customers to buy used furniture in their local communities. You can check out the live product at <a href="https://furnex.ca">https://furnex.ca</a>.
+
+<p>I work remotely for Furnex - which is based in Toronto - doing mostly system administration and front-end web development. It’s still in the early stages so it’s more of a "whatever’s needed" kind of job. Furnex is in the process of taking the Canadian furniture industry by storm, and you can check out some of the media attention it’s been getting <a href="https://www.youtube.com/watch?v=s81vdh-ApTY">here</a> and <a href="http://betakit.com/new-startup-next-toronto-cohort-gets-down-to-business/">here</a>. I’m excited for what the future holds with this one.</p>

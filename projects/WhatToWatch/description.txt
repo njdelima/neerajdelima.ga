@@ -1,3 +1,5 @@
+<strong>WhatToWatch</strong>
+
 <p>WhatToWatch is a web application that intelligently selects videos for a user to watch based on their past habits. It uses IBM's <a href="https://en.wikipedia.org/wiki/Watson_%28computer%29">Watson</a> to do all the thinking.</p>
 
 <p>I developed it for HackIllinois 2015 where it won IBM's "Best Hack using Bluemix" prize. As expected for any project developed frantically in under 36 hours, it's far from perfect. I'm still working on ironing out some of the glitches, however you can try it out <a href="http://neerajdelima.ga/projects/whattowatch/">here</a> or view my DevPost page <a href="http://devpost.com/njdelima">here</a>. 
