@@ -234,6 +234,8 @@
 					var expansionText = find_last_of_row(project).nextAll(".project-expansion").eq(0).detach();
 
 					project.after(expansionText);
+					expansionText.animate({ "opacity": "0" }, "slow");
+
 					project.removeClass("expanded");
 					project.nextAll(".project-expansion").eq(0).removeClass("expanded");
 				}
