@@ -145,7 +145,7 @@ p.about a:hover {
 	display: block;
 	width: 100%;
 	background-color: #aaa;
-//	opacity: 0;
+	opacity: 0;
 }
 
 .project-expansion.expanded p {
