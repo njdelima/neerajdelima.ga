@@ -141,6 +141,9 @@ p.about a:hover {
 	
 }
 
+.project-thumbnail.expanded .thumbnail-overlay {
+	display: block;
+}
 .project-expansion.expanded {
 	display: block;
 	width: 100%;
