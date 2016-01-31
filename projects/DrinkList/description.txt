@@ -1,4 +1,4 @@
-<strong>DrinkList</strong>
+<h3>DrinkList</h3>
 
 <p>Still a work in progress, but you can check out the live app as it’s being developed <a href="http://drinklist.ga">here</a></p>
 

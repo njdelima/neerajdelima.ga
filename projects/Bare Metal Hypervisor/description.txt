@@ -1,4 +1,4 @@
-<strong>Bare Metal Hypervisor</strong
+<h3>Bare Metal Hypervisor</h3>
 
 <p>This is probably the project I’m most proud of, by a long shot.</p>
 

@@ -1,4 +1,4 @@
-<strong>Resonance</strong>
+<h3>Resonance</h3>
 
 <p>As part of a course in Human-Computer interaction I took while studying abroad in Australia, I designed the interface for an application that facilitates collaboration between musicians - "Resonance". Though the application’s functionality is much too far fetched to actually be feasible, it was a lot of fun to visualize and design what the front-end for such a unique app would be.</p>
 

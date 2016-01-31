@@ -1,4 +1,4 @@
-<strong>Startup DownUnder</strong>
+<h3>Startup DownUnder</h3>
 
 <p>Startup DownUnder was a startup company that aimed to showcase the undervalued entrepreneurial environment of Australia. Part of a management and entrepreneurship course, I teamed up with 5 classmates to develop this.</p>
 

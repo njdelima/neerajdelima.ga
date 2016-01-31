@@ -1,4 +1,4 @@
-<strong>snapGallery</strong>
+<h3>snapGallery</h3>
 
 <p>snapGallery is a simple jQuery plugin to create responsive image galleries with minimal effort. It converts a list of unordered, haphazard, differently sized images into a beautiful gallery that you can customize according to your needs</p>
 

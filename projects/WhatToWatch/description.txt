@@ -1,4 +1,4 @@
-<strong>WhatToWatch</strong>
+<h3>WhatToWatch</h3>
 
 <p>WhatToWatch is a web application that intelligently selects videos for a user to watch based on their past habits. It uses IBM's <a href="https://en.wikipedia.org/wiki/Watson_%28computer%29">Watson</a> to do all the thinking.</p>
 

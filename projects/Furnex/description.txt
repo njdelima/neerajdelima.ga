@@ -1,4 +1,4 @@
-<strong>Furnex</strong>
+<h3>Furnex</h3>
 
 <p>Furnex is a curated online marketplace that allows customers to buy used furniture in their local communities. You can check out the live product at <a href="https://furnex.ca">https://furnex.ca</a>.
 
