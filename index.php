@@ -231,10 +231,9 @@
 				var width = $(".main-container").width();
 
 				if (project.hasClass("expanded")) {
-					var expansionText = find_last_of_row(project).nextAll(".project-expansion").eq(0).animate({ "opacity": "0" }, "slow").detach();
+					var expansionText = find_last_of_row(project).nextAll(".project-expansion").eq(0).detach();
 
 					project.after(expansionText);
-					expansionText.animate({ "opacity": "0" }, "slow");
 
 					project.removeClass("expanded");
 					project.nextAll(".project-expansion").eq(0).removeClass("expanded");
@@ -328,7 +327,7 @@
 					$(this).toggleClass("expanded");
 		//			alert("toggle class for thumbnail");
 					expansionText.toggleClass("expanded");
-					expansionText.animate({ "opacity": "1" }, "slow");
+
 		//			alert("toggle class for expansion");
 				}
 			});
