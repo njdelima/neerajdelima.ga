@@ -274,7 +274,7 @@
 						project.offset().top === project.prevAll(".project-thumbnail").eq(1).offset().top) {
 
 		//				alert("Last thumbnail of row");
-						console.log(
+					
 						return project;
 					} else if (curTop === prevTop && curTop === nextTop) {
 					// else if (project.offset().top === project.prevAll(".project-thumbnail").eq(0).offset().top &&
