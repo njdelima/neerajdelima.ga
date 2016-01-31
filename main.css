@@ -149,5 +149,5 @@ p.about a:hover {
 
 .project-expansion.expanded p {
 	font-family: "Roboto Condensed", sans-serif;
-
+	opacity: 0;
 }

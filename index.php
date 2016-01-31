@@ -320,7 +320,7 @@
 
 
 					find_last_of_row($(this)).after(expansionText);
-					expansionText.hide().fadeIn(500);
+					expansionText.animate({ "opacity": "1" }, "slow");
 
 		//			alert("Found last of row and inserted expansionText");
 
