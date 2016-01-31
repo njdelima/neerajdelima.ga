@@ -1,1 +1,11 @@
-<p>”Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+<p>Startup DownUnder was a startup company that aimed to showcase the undervalued entrepreneurial environment of Australia. Part of a management and entrepreneurship course, I teamed up with </p>
+
+<p>
+
+Built a startup company to showcase the undervalued entrepren
+eurial environment of Australia
+•
+Studied and implemented the 
+lean startup method
+•
+Presented a 3 minute pitch to a panel of 50 potential investors, stakeholders and peers</p>

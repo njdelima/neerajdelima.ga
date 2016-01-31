@@ -1,1 +1,5 @@
-Hello
+<p>Still a work in progress, but you can check out the live app as it’s being developed <a href=“http://drinklist.ga>here</a></p>
+
+<p>With DrinkList, I’m hoping to create a centralized place for establishments and events to keep their menus. This way, when someone visits a crowded bar or nightclub and wants to see a menu, they don’t need to wait 15 minutes (if they’re lucky) to get one - they can just visit drinklist.ga/TheEstablishmentName and see it. Instead of yelling at the bartender and having him mess up your drink anyway because he can’t hear you, you’d be able to just tap on the menu item you want and have it display on your screen in big bold letters so that you can show it to the bartender or server.</p>
+
+<p>This will be finished in a short while, so come back and check it out if you find it interesting</p>
