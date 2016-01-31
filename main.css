@@ -145,9 +145,9 @@ p.about a:hover {
 	display: block;
 	width: 100%;
 	background-color: #aaa;
+	opacity: 0;
 }
 
 .project-expansion.expanded p {
 	font-family: "Roboto Condensed", sans-serif;
-	opacity: 0;
 }
