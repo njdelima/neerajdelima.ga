@@ -146,3 +146,8 @@ p.about a:hover {
 	width: 100%;
 	background-color: #aaa;
 }
+
+.project-expansion.expanded p {
+	font-family: "Roboto Condensed", sans-serif;
+
+}
