@@ -327,7 +327,9 @@
 
 					$(this).toggleClass("expanded");
 		//			alert("toggle class for thumbnail");
-					expansionText.toggleClass("expanded");
+					expansionText.fadeIn("slow", function() {
+						$(this).addClass("expanded");
+					});
 		//			alert("toggle class for expansion");
 				}
 			});
