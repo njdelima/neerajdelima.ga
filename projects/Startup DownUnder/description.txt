@@ -1,11 +1,5 @@
-<p>Startup DownUnder was a startup company that aimed to showcase the undervalued entrepreneurial environment of Australia. Part of a management and entrepreneurship course, I teamed up with </p>
+<p>Startup DownUnder was a startup company that aimed to showcase the undervalued entrepreneurial environment of Australia. Part of a management and entrepreneurship course, I teamed up with 5 classmates to develop this.</p>
 
-<p>
+<p>We studied and implemented the <a href="https://en.wikipedia.org/wiki/Lean_startup">lean startup method</a>, which means we had to iterate our product several times. It started off as a documentary film, but once we realized that we had to build up a user base in order to get people to actually watch the film, it transitioned to a three year plan with a recurring web series and events.</p>
 
-Built a startup company to showcase the undervalued entrepren
-eurial environment of Australia
-•
-Studied and implemented the 
-lean startup method
-•
-Presented a 3 minute pitch to a panel of 50 potential investors, stakeholders and peers</p>
+<p>Though we had to abandon the project - we were 6 people from different parts of the world - it was a great learning experience and taught me how to get a startup off the ground. Getting to talk to and interview some of the most successful Australian entrepreneurs, including <a href="https://en.wikipedia.org/wiki/Matt_Barrie">Matt Barrie</a> and <a href="http://www.forbes.com/profile/mike-cannon-brookes/">Mike Cannon-Brookes</a> was an added bonus.</p>
