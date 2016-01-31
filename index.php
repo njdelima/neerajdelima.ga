@@ -235,7 +235,9 @@
 
 					project.after(expansionText);
 					project.removeClass("expanded");
-					project.nextAll(".project-expansion").eq(0).removeClass("expanded");
+					project.nextAll(".project-expansion").eq(0).fadeOut("slow", function() {
+						$(this).removeClass("expanded");
+					});
 				}
 			}
 
@@ -320,7 +322,6 @@
 
 
 					find_last_of_row($(this)).after(expansionText);
-					expansionText.animate({ "opacity": "1" }, "slow");
 
 		//			alert("Found last of row and inserted expansionText");
 
