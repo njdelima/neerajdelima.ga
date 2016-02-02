@@ -196,7 +196,7 @@
 		$(document).ready(function() {
 			$(window).resize(function() {
 				console.log("Current window width = " + $(window).width());
-			}
+			});
 			$("#introduction-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#introduction").offset().top
