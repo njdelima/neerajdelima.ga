@@ -182,6 +182,9 @@ input, textarea {
 
 input[type="submit"] {
 	width: 100%;
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 25px;
 }
 input[type="text"] {
 	font-weight: 700;
