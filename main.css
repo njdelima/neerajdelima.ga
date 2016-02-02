@@ -253,3 +253,16 @@ textarea {
 		margin-right: 20px;
 	}
 }
+
+@media screen and (max-width: 557px) {
+	label {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	input, textarea {
+		display: block; 
+		width: 100%;
+	}
+}
