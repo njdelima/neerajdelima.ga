@@ -167,12 +167,16 @@
 		<hr id="projects-end" />
 		<h2 id="contact">Contact Me</h2>
 		<form action="index.php" method="post">
-			<label for="name">Name:</label>
-			<input type="text" id="name" value="" name="name" autocomplete="off" />
-			<label for="message">Message:</label>
-			<textarea name="message" rows="5" id="message"
-				placeholder="Please leave your contact details so I can get back to you!">
-			</textarea>
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" id="name" value="" name="name" autocomplete="off" />
+			</div>
+			<div class="form-group">
+				<label for="message">Message:</label>
+				<textarea name="message" rows="5" id="message"
+					placeholder="Please leave your contact details so I can get back to you!">
+				</textarea>
+			</div>
 			<input type="submit" value="Send" />
 		</form>
 		<?php
