@@ -26,6 +26,8 @@
 			<li id="projects-nav" class="nav-button"><a href="#projects">| Projects</a></li>
 			<li id="contact-nav" class="nav-button"><a href="#contact">| Contact Me</a></li>
 		</ul>
+		<a class="resume-link" href="./neeraj_delima_resume.pdf">resume</a>
+			| <a class="github-link" href="https://github.com/njdelima">github</a>
 	</div>
 	<div class="main-container">
 		<h1 id="introduction">Neeraj J. DeLima</h1>
