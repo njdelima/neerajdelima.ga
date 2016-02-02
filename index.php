@@ -232,7 +232,10 @@
 
 			$(window).scroll(function() {
 				var mid = Math.round($(window).scrollTop() + $(window).height() / 2);
-				if (mid < introBottom) {
+				if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+					$(".nav-button").removeClass("active");
+					$("#contact-nav").addClass("active");
+				} else if (mid < introBottom) {
 					$(".nav-button").removeClass("active");
 					$("#introduction-nav").addClass("active");
 				} else if (mid > introBottom && mid < aboutBottom) {
