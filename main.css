@@ -221,3 +221,8 @@ textarea {
 		margin-right: 5%;
 	}
 }
+@media screen and (max-width: 1036px) {
+	div.main-container {
+		margin-right: 0.5%;
+	}
+}
