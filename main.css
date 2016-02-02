@@ -40,6 +40,10 @@ div.navigation ul li a {
 	color: black;
 }
 
+div.navigation span.external-links a {
+	text-decoration: none;
+}
+
 div.main-container {
 	width: 100%;
 	margin-left: auto;
