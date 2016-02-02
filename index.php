@@ -174,8 +174,7 @@
 			<div class="form-group">
 				<label for="message">Message:</label>
 				<textarea name="message" rows="5" id="message" value=""
-					placeholder="Please leave your contact details so I can get back to you!">
-				</textarea>
+					placeholder="Please leave your contact details so I can get back to you!"></textarea>
 			</div>
 			<input type="submit" value="Send" />
 		</form>
