@@ -10,6 +10,15 @@
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
+	<?php 
+		if (isset($_POST['name']) && isset($_POST['message'])) {
+			$name = sanitizeString($_POST['name']);
+			$message = sanitizeString($_POST['message']);
+
+			mail('neeraj.delima@gmail.com', $name, $message);
+			echo "<script>alert('Thanks! Will get back to you shortly.');</script>";
+		}
+	?>
 	<div class="navigation">
 		<ul>
 			<li id="introduction-nav" class="active nav-button"><a href="#introduction">| Introduction</a></li>
@@ -144,7 +153,7 @@
 				echo file_get_contents("./projects/" . $folder . "/description.txt");
 
 				echo "</div>";
-				/*
+		 		/*
 				while (($file = readdir($dh)) !== false) {
 					if ($file[0] == '.') {
 						continue;
@@ -157,13 +166,23 @@
 		?>
 		<hr id="projects-end" />
 		<h2 id="contact">Contact Me</h2>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p><p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
-		<p> Lorem ipsum</p>
-		<p> Dolor sit amet</p>
+		<form action="index.php" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" value="" name="name" autocomplete="off" />
+			<label for="message">Message:</label>
+			<textarea name="message" rows="5" id="message"
+				placeholder="Please leave your contact details so I can get back to you!">
+			</textarea>
+			<input type="submit" value="Send" />
+		</form>
+		<?php
+			function sanitizeString($var) {
+				$var = stripslashes($var);
+				$var = htmlentities($var);
+				$var = strip_tags($var);
+				return $var;
+			}
+		?>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
