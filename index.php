@@ -173,7 +173,7 @@
 			</div>
 			<div class="form-group">
 				<label for="message">Message:</label>
-				<textarea name="message" rows="5" id="message"
+				<textarea name="message" rows="5" id="message" value=""
 					placeholder="Please leave your contact details so I can get back to you!">
 				</textarea>
 			</div>
