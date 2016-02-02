@@ -40,8 +40,14 @@ div.navigation ul li a {
 	color: black;
 }
 
-div.navigation span.external-links a {
+div.external-links {
+	position: fixed;
+	top: 40px;
+	left: 20px;
+}
+div.external-links a {
 	text-decoration: none;
+
 }
 
 div.main-container {
