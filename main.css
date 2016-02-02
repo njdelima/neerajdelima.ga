@@ -226,3 +226,16 @@ textarea {
 		margin-right: 0.5%;
 	}
 }
+
+@media screen and (max-width: 985px) {
+	div.main-container {
+		margin-right: auto;
+	}
+
+	div.navigation {
+		display: none;
+	}
+	div.external-links {
+		display: static;
+	}
+}
