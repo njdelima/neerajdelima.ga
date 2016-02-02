@@ -42,12 +42,18 @@ div.navigation ul li a {
 
 div.external-links {
 	position: fixed;
-	top: 40px;
-	left: 20px;
+    top: 164px;
+    left: 20px;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 1.2em;
 }
 div.external-links a {
 	text-decoration: none;
+	color: #551A8B;
+}
 
+div.external-links a:hover {
+	text-decoration: underline;
 }
 
 div.main-container {
