@@ -245,12 +245,13 @@ textarea {
 
 @media screen and (max-width: 367px) {
 	h1 {
-		font-size: 1.7em;
+		font-size: 1.6em;
 		margin-top: 23px;
 	}
 	div.external-links {
 		margin-top:30 px;
 		margin-right: 20px;
+		font-size: 1.1em;
 	}
 }
 
