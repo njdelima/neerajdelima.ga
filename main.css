@@ -215,3 +215,9 @@ textarea {
 .form-group {
 	margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1190px) {
+	div.main-container {
+		margin-right: 5%;
+	}
+}
