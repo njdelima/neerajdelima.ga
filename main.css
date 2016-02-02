@@ -241,7 +241,10 @@ textarea {
 	div.navigation {
 		display: none;
 	}
-	div.external-links {
-	//	display: static;
+}
+
+@media screen and (max-width: 367px) {
+	h1 {
+		font-size: 0.8em;
 	}
 }
