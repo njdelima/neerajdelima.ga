@@ -194,6 +194,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$(window).resize(function() {
+				console.log("Current window width = " + $(window).width());
+			}
 			$("#introduction-nav").click(function() {
 				$("html, body").animate({
 					scrollTop: $("#introduction").offset().top
