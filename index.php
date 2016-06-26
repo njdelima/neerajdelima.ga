@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,23 +15,20 @@
 	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-	<?php 
+	<?php
 		if (isset($_POST['name']) && isset($_POST['message'])) {
 
-			if (isset($_POST['email']) && $_POST['email'] == '') 
+			if (isset($_POST['email']) && $_POST['email'] == '') {
 
-				if (!isset($_SESSION['last_form_submission'])) {
+				if (!isset($_SESSION['last_form_submission']) || (time() - $_SESSION['last_form_submission'] > 60)) {
 					$_SESSION['last_form_submission'] = time();
-				}
 
-				if (time()-$_SESSION['last_form_submission'] < 60) {
-			    	die('Post limit exceeded. Please wait at least 60 seconds');
-				} else {
-			    	$_SESSION['last_form_submission'] = time();
 					$name = sanitizeString($_POST['name']);
 					$message = sanitizeString($_POST['message']);
 
 					mail('neeraj.delima@gmail.com', $name, $message);
+				} else {
+			    		die('Post limit exceeded. Please wait at least 60 seconds');
 				}
 			}
 			echo "<script>alert('Thanks! Will get back to you shortly.');</script>";
