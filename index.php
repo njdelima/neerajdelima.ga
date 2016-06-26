@@ -15,10 +15,23 @@
 <body>
 	<?php 
 		if (isset($_POST['name']) && isset($_POST['message'])) {
-			$name = sanitizeString($_POST['name']);
-			$message = sanitizeString($_POST['message']);
 
-			mail('neeraj.delima@gmail.com', $name, $message);
+			if (isset($_POST['email']) && $_POST['email'] == '') 
+
+				if (!isset($_SESSION['last_form_submission'])) {
+					$_SESSION['last_form_submission'] = time();
+				}
+
+				if (time()-$_SESSION['last_form_submission'] < 60) {
+			    	die('Post limit exceeded. Please wait at least 60 seconds');
+				} else {
+			    	$_SESSION['last_form_submission'] = time();
+					$name = sanitizeString($_POST['name']);
+					$message = sanitizeString($_POST['message']);
+
+					mail('neeraj.delima@gmail.com', $name, $message);
+				}
+			}
 			echo "<script>alert('Thanks! Will get back to you shortly.');</script>";
 		}
 	?>
@@ -178,6 +191,10 @@
 			<div class="form-group">
 				<label for="name">Name:</label>
 				<input type="text" id="name" value="" name="name" autocomplete="off" />
+			</div>
+			<div class="form-group antispam">
+				<label for="email">Please leave this empty!:</label>
+				<input type="text" name="email" />
 			</div>
 			<div class="form-group">
 				<label for="message">Message:</label>

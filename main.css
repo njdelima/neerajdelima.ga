@@ -221,6 +221,9 @@ textarea {
 .form-group {
 	margin-bottom: 10px;
 }
+.antispam {
+	display: none;
+}
 
 @media screen and (max-width: 1190px) {
 	div.main-container {
