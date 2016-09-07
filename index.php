@@ -90,7 +90,13 @@
 			in 2018.
 		</p>
 		<p class="about">
-			I work as an Associate Software Engineer at
+			I work as an Software Developer Intern at
+			<a target="_blank" href="http://www.singletracks.com/">
+				Singletracks
+			</a>
+		</p>
+		<p class="about">
+			I have worked as an Software Engineer Co-op at
 			<a target="_blank" href="http://www.codemettle.com/">
 				CodeMettle, LLC.
 			</a>
