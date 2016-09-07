@@ -1,0 +1,5 @@
+<h3>Buzz Movie Selector</h3>
+
+<p>As part of a software development course I took at Georgia Tech, I designed and developed an Android application for movie recommendations among Georgia Tech students. It allows you to get movie recommendations from students in your major (and across other majors too), search for and rate movies as well as get basic information about the movie. It pulled information from the <a href="http://www.omdbapi.com/">Open Movie Database API</a> as well as a small PHP API I wrote myself</a>
+
+<p>Though it was a relatively simple application, learning about and applying the <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile software development</a> methodology was very interesting, as was getting my first Android application out of the way – hopefully it paves the way for bigger and better!</p>
