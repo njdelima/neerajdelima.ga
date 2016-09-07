@@ -23,12 +23,50 @@
 				if (!isset($_SESSION['last_form_submission']) || (time() - $_SESSION['last_form_submission'] > 60)) {
 					$_SESSION['last_form_submission'] = time();
 
+					require_once 'login.php';
+					$connection = new mysqli($db_hostname, $db_username, $db_password, $db_database);
+
+					if ($connection -> connect_error) {
+                        			die($connection -> connect_error);
+                			}
+
+					$remote_addr = $_SERVER['REMOTE_ADDR'];
+					$fwd_addr    = $_SERVER['HTTP_X_FORWARDED_FOR'];
+
+					$query = "SELECT last_submit FROM rate_limit WHERE FWD_ADDR='$fwd_addr'";
+					$result = $connection -> query($query);
+
+					if (!result) {
+						die($connection -> error);
+					}
+
+					$rows = $result -> num_rows;
+					if ($rows != 0) {
+						$result -> data_seek(0);
+						$row = $result -> fetch_array(MYSQLI_ASSOC);
+						$db_time = $row['last_submit'];
+						//echo time() -$db_time;
+						if (time() - $db_time < 60) {
+							die("Post limit exceeded. Please wait at least 60 seconds.");
+						} else {
+							$query = "UPDATE rate_limit SET last_submit=".time()." WHERE FWD_ADDR='$fwd_addr'";
+							$result = $connection -> query($query);
+							if (!$result) die($connection->error);
+						}
+					} else {
+						$query = "INSERT INTO rate_limit(FWD_ADDR, REMOTE_ADDR, last_submit) VALUES('$fwd_addr', '$remote_addr',".time().")";
+						$result = $connection -> query($query);
+						if (!$result) {
+							die($connection->error);
+						}
+					}
+
 					$name = sanitizeString($_POST['name']);
 					$message = sanitizeString($_POST['message']);
 
 					mail('neeraj.delima@gmail.com', $name, $message);
 				} else {
-			    		die('Post limit exceeded. Please wait at least 60 seconds');
+			    		die("Post limit exceeded. Please wait at least 60 seconds");
 				}
 			}
 			echo "<script>alert('Thanks! Will get back to you shortly.');</script>";
